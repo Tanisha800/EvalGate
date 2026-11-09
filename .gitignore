@@ -1,0 +1,50 @@
+# --- Local-only instruction file for Claude Code (never commit) ---
+CLAUDE.md
+
+# --- Secrets / local env ---
+.env
+.env.*
+!.env.example
+
+# --- OS / editor ---
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# --- Node / TypeScript ---
+node_modules/
+dist/
+build/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+npm-debug.log*
+pnpm-debug.log*
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+*.egg-info/
+.coverage
+htmlcov/
+
+# --- ML artefacts (large; models are published to GitHub Releases) ---
+ml/judge/data/*
+!ml/judge/data/sample/
+ml/judge/models/
+*.onnx
+*.pt
+*.safetensors
+
+# --- EvalGate local run outputs ---
+.evalgate-runs/
+
+docs/adr/

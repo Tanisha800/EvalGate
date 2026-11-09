@@ -1,0 +1,9 @@
+{
+  "name": "evalgate",
+  "private": true,
+  "description": "EvalGate – AI agent regression testing platform",
+  "packageManager": "pnpm@11.22.0",
+  "engines": {
+    "node": ">=22 <23"
+  }
+}
